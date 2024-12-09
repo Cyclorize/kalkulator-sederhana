@@ -15,7 +15,7 @@ def main():
     operation = st.selectbox(
         "Pilih operasi matematika:",
         ("Penjumlahan", "Pengurangan", "Perkalian", "Pembagian")
-    
+    )
     # Tombol untuk menghitung
     if st.button("Hitung"):
         if operation == "Penjumlahan":
